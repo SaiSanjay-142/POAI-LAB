@@ -1,0 +1,34 @@
+% c:/Users/HDC0719088/Desktop/231501128/prolog.txt compiled 0.00 sec, 22 clause
+?- male(peter).
+true.
+?- father(chris,peter).
+true.
+?- father(chris,betty).
+false.
+?-
+| grandfather(kevin.peter).
+true.
+?- grandfather(jenny.peter).
+false.
+?- grandmother(jenny.peter).
+false.
+?- brother(helen,chris).
+true.
+?- brother (chris,helen).
+false.
+?- father(X,Y).
+X = chris,
+Y = peter.
+?- mother(X,Y).
+X = chris,
+Y = betty.
+?- grandmother(X,Y).
+X = kevin,
+Y = betty.
+?- grandfather(X,Y).
+X = kevin
+Y = peter.
+2- hrother (X,Y)
+XY, Y = chris.
+?- sister(X,Y).
+X = Y. Y = jeny
