@@ -1,0 +1,55 @@
+CODE 1:
+
+woman(mia).
+true
+
+playsAirGuitar(mia).
+true
+
+concert.
+
+procedure "concert" does not exist
+
+CODE 2:
+
+playsAirGuitar(mia).
+true
+
+playsAirGuitar(yolanda).
+true
+
+CODE 3:
+
+likes(dan,X).
+X = sally.
+
+married(dan,sally).
+true.
+
+married(johm,brittney).
+false
+
+CODE 4:
+
+food(pizza).
+true
+
+meal(X),food(X)
+X = burger
+X = sandwich
+dinner(sandwich)
+false
+
+CODE 5:
+
+owns(john,X).
+X = car(chevy).
+
+owns(john,_).
+true
+
+ownd(Who,car(chevy)).
+Who = john.
+
+owns(jane,X),sedan(X).
+false.
